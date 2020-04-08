@@ -1,0 +1,25 @@
+{
+    "name":"rasolo/wp_site_copy",
+    "description":"Create a full copy of the WordPress site - files and MySql database",
+    "license":"MIT",
+    "version": "@dev",
+    "authors":{
+        "name":["Andrew V. Galagan"],
+        "email":["andrew.galagan@gmail.com"]
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
+    "type": "wordpress-plugin",
+    "config": {
+        "vendor-dir": "wp-content/vendor"
+    },
+    "require":{
+        "php":">=5.5.0",
+        "johnpbloch/wordpress" : ">=4.9"
+    }
+
+}

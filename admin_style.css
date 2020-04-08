@@ -1,0 +1,56 @@
+#allow_simple_users_input,
+#rasolo_make_copy input.button {
+    margin-left: 120px;
+}
+
+/* The .css file for admin */
+
+.rs_right {
+    /*width: 20%;*/
+    color: #a6a6a6;
+    display: inline-block;
+    float: right;
+    background-color: rgb(225, 255, 235);
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid #cbcbcb;
+    border-radius: 4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    -khtml-border-radius:4px;
+
+}
+
+
+#backup_copy_data tr:first-of-type th,
+#backup_copy_data tr:first-of-type td {
+    text-align: center;
+    background-color: #3d3d3d;
+    color: #dcdcdc;
+    font-weight: bold;
+}
+
+#backup_copy_data th,
+#backup_copy_data td {
+    align: center;
+    valign: middle;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.rasolo_sitecopy_space {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.rasolo_sitecopy_double_space {
+    margin-top: 70px;
+    width: 100%;
+}
+
+.rasolo_sitecopy_floatleft {
+    float: left;
+}
+.rasolo_sitecopy_floatright {
+    float: right;
+}

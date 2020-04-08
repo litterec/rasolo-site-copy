@@ -1,0 +1,2 @@
+Version 1.1
+  - The file name auto selection system has been improved
