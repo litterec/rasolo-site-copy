@@ -378,10 +378,11 @@ class RasoloSiteCopy{
             __( 'The backup files Ra-Solo','rasolo-site-copy'),
             $crnt_cpblt,
             'rasolo_copies_menu_page',
-            array($this, 'admin_options_page'),
-            'dashicons-id-alt'
+            array($this, 'admin_options_page')
         );
     }
+
+    // , 'dashicons-id-alt'
 
 	/* 
 		add_options_page('The Ra-Solo options page',
@@ -401,9 +402,10 @@ class RasoloSiteCopy{
             __( 'The Ra-Solo backup options', 'rasolo-site-copy' ),
             $crnt_cpblt,
             'rasolo_copies_options_page',
-            array($this, 'admin_options_page'),
-            'dashicons-id-alt'
+            array($this, 'admin_options_page')
         );
+// ,'dashicons-id-alt'
+
     }
 
 	public function admin_options_page(){
