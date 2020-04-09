@@ -1,0 +1,177 @@
+# Copyright (C) 2017 Ra-Solo Site Copy
+# This file is distributed under the same license as the Ra-Solo Site Copy package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ra-Solo Site Copy\n"
+"POT-Creation-Date: 2020-04-07 16:18:45+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-04-09 20:04+0300\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Language: ru\n"
+
+#: rasolo-site-copy.php:1
+msgid "Archives have been successfully deleted"
+msgstr "Архивы успешно удалены"
+
+#: rasolo-site-copy.php:1
+msgid "There were no archives on the server"
+msgstr "Архивов не было на сервере"
+
+#: rasolo-site-copy.php:1
+msgid "Sorry, but this plugin is required:"
+msgstr "Извините, но этот плагин строго необходим:"
+
+#: rasolo-site-copy.php:1
+msgid "Sorry, but this plugins are required:"
+msgstr "Извините, но эти плагины строго необходимы:"
+
+#: rasolo-site-copy.php:1
+msgid "Both site and database backup files have been successfully created"
+msgstr "Бекап-файлы сайта и базы данных успешно созданы"
+
+#: rasolo-site-copy.php:1
+msgid "Both site and database backup files have been successfully updated"
+msgstr "Бекап-файлы сайта и базы данных успешно обновлены"
+
+#: rasolo-site-copy.php:1
+msgid "We recommend you to download both files to the local drive after creating fresh backup files."
+msgstr "Рекомендуется скачать оба файла на локальный диск после создания свежих файлов резервных копий."
+
+#: rasolo-site-copy.php:1
+msgid "Attention! After clicking &laquo;Refresh archives&raquo; button the old files will be deleted without confirmation!"
+msgstr "Внимание! После нажатия кнопки &laquo;Обновить архивы&raquo; старые файлы будут удалены без подтверждения!"
+
+#: rasolo-site-copy.php:1
+msgid "Operations with the database archive are now impossible"
+msgstr "Операции с архивом БД сейчас невозможны"
+
+#: rasolo-site-copy.php:1
+msgid "Download site database archive"
+msgstr "Скачать архив БД сайта"
+
+#: rasolo-site-copy.php:1
+msgid "The Ra-Solo backup control page"
+msgstr "Страница управления бекап-архивами Ra-Solo"
+
+#: rasolo-site-copy.php:1
+msgid "The backup files Ra-Solo"
+msgstr "Бекап Ra-Solo"
+
+#: rasolo-site-copy.php:1
+msgid "The Ra-Solo options page"
+msgstr "Страница установок Ra-Solo"
+
+#: rasolo-site-copy.php:1
+msgid "Site backup management"
+msgstr "Управление бекапом сайта"
+
+#: rasolo-site-copy.php:1
+msgid "Backup files status:"
+msgstr "Состояние файлов бекапа:"
+
+#: rasolo-site-copy.php:1
+msgid "Item"
+msgstr "Объект"
+
+#: rasolo-site-copy.php:1
+msgid "File name"
+msgstr "Имя файла"
+
+#: rasolo-site-copy.php:1
+msgid "File size"
+msgstr "Размер файла"
+
+#: rasolo-site-copy.php:1
+msgid "Created"
+msgstr "Создан"
+
+#: rasolo-site-copy.php:1
+msgid "Operations"
+msgstr "Операции"
+
+#: rasolo-site-copy.php:1
+msgid "No file archive"
+msgstr "Архив файлов отсутствует"
+
+#: rasolo-site-copy.php:1
+msgid "Backup archive of site files has not been created"
+msgstr "Бекап-архив файлов сайта не был создан"
+
+#: rasolo-site-copy.php:1
+msgid "Download the  site files archive"
+msgstr "Скачать архив файлов сайта"
+
+#: rasolo-site-copy.php:1
+msgid "File archive operations are not possible"
+msgstr "Операции с архивом файлов невозможны"
+
+#: rasolo-site-copy.php:1
+msgctxt "rasolo_copy_table_db_01"
+msgid "The site"
+msgstr "Архив базы"
+
+#: rasolo-site-copy.php:1
+msgctxt "rasolo_copy_table_db_02"
+msgid "database archive"
+msgstr "данных сайта"
+
+#: rasolo-site-copy.php:1
+msgid "If you have not downloaded the current backup please follow these steps:"
+msgstr "Если вы не скачивали текущий бекап, пожалуйста, выполните следующие пункты:"
+
+#: rasolo-site-copy.php:1
+msgid "Download the backup archive of the files (the first link at the top of the page)."
+msgstr "Скачайте бекап-архив файлов сайта (первая ссылка вверху страницы)."
+
+#: rasolo-site-copy.php:1
+msgid "Download the backup archive of the database (the second link at the top of the page)."
+msgstr "Скачайте бекап-архив базы данных сайта (вторая ссылка вверху страницы)."
+
+#: rasolo-site-copy.php:1
+msgid "Generate fresh backup archives of files and databases, for which click on the “Update archive” button."
+msgstr "Сгенерируйте свежие бекап-архивы файлов и базы данных, для чего нажмите на кнопку &laquo;Обновить архивы&raquo;."
+
+#: rasolo-site-copy.php:1
+msgid "Download the fresh backup archive of the files (the first updated link at the top of the page)."
+msgstr "Скачайте свежий архив файлов сайта (первая обновленная ссылка вверху страницы)."
+
+#: rasolo-site-copy.php:1
+msgid "Download the fresh backup archive of the database (the second updated link at the top of the page)."
+msgstr "Скачайте свежий архив базы данных сайта (вторая обновленная ссылка вверху страницы)."
+
+#: rasolo-site-copy.php:1
+msgid "Update archives"
+msgstr "Обновить архивы"
+
+#: rasolo-site-copy.php:1
+msgid "Create archives"
+msgstr "Создать архивы"
+
+#: rasolo-site-copy.php:1
+msgid "Delete archives"
+msgstr "Удалить архивы"
+
+#: rasolo-site-copy.php:1
+msgid "User access to site archives"
+msgstr "Управление доступом пользователей к архивам сайта"
+
+#: rasolo-site-copy.php:1
+msgid "Allow non-administrative users to manage copies?"
+msgstr "Разрешить неадминистративным пользователям управление копиями?"
+
+#: rasolo-site-copy.php:1
+msgid "Deny"
+msgstr "Запретить"
+
+#: rasolo-site-copy.php:1
+msgid "Allow"
+msgstr "Разрешить"
+
+#: rasolo-site-copy.php:1
+msgid " file copying"
+msgstr " копирование"

@@ -1,0 +1,20 @@
+# Copyright (C) 2017 Ra-Solo Site Copy
+# This file is distributed under the same license as the Ra-Solo Site Copy package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ra-Solo Site Copy\n"
+"POT-Creation-Date: 2020-04-07 16:18:45+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-04-08 20:27+0300\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.3\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Language: ru\n"
+
+#: rasolo-site-copy.php:1
+msgid "Archives have been successfully deleted"
+msgstr ""
+
