@@ -25,6 +25,8 @@ License: GPL2
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
+define( 'RS_SCOPY_WITH_CLASSES_FILE', __FILE__ );
+
 if ( !class_exists( 'RasoloSiteCopy' ) ) {
 class RasoloSiteCopy{
 	static private $RASOLO_COPIES_OPTIONS = 'rasolo_copies_option_name';
@@ -58,6 +60,8 @@ class RasoloSiteCopy{
 
 	
 	function __construct(){
+
+        register_activation_hook( RS_SCOPY_WITH_CLASSES_FILE,  [ $this, 'manage_plugin_options' ] );
 
         $this->absent_plugins=[];
         if( !is_admin() ) {
@@ -125,6 +129,10 @@ class RasoloSiteCopy{
 		add_action('admin_notices',array($this,'show_rasolo_logo'),9);
 		
 	}  // The end of __construct
+
+    public function manage_plugin_options(){
+
+    }
 
     public function this_init() {
         load_plugin_textdomain( 'rasolo-site-copy', FALSE, basename( dirname( __FILE__ ) ) . '/languages/' );
