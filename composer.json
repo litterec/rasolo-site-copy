@@ -17,6 +17,9 @@
     "config": {
         "vendor-dir": "wp-content/vendor"
     },
+    "autoload" : {
+        "exclude-from-classmap": [".settings/", ".git/", ".gitignore"]
+    },
     "require":{
         "php":">=5.5.0",
         "johnpbloch/wordpress" : ">=4.9"
