@@ -15,7 +15,8 @@
     ],
     "type": "wordpress-plugin",
     "config": {
-        "vendor-dir": "wp-content/vendor"
+        "vendor-dir": "wp-content/vendor",
+        "preferred-install": "dist"
     },
     "autoload" : {
         "exclude-from-classmap": [".settings/", ".git/", ".gitignore"]
